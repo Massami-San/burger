@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#f2a93b" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f2a93b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brilho" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#211a15"/>
+  <rect width="400" height="400" fill="url(#glow)"/>
+  <ellipse cx="200" cy="338" rx="150" ry="18" fill="#000" opacity="0.35"/>
+  <rect x="65" y="294" width="270" height="36" rx="16" fill="#b86a24"/>
+    <rect x="65" y="294" width="270" height="14" rx="7" fill="#d98b3a"/>
+<rect x="59" y="264" width="282" height="34" rx="16" fill="#4a2a1a"/>
+        <rect x="105" y="276" width="28" height="4" rx="2" fill="#2a160d" opacity="0.7"/><rect x="159" y="276" width="28" height="4" rx="2" fill="#2a160d" opacity="0.7"/><rect x="213" y="276" width="28" height="4" rx="2" fill="#2a160d" opacity="0.7"/><rect x="267" y="276" width="28" height="4" rx="2" fill="#2a160d" opacity="0.7"/>
+<path d="M57 258 L343 258 L343 268 L353 268 Q343 292 333 268 L312.1428571428571 268 Q302.1428571428571 272 292.1428571428571 268 L271.2857142857143 268 Q261.2857142857143 292 251.28571428571428 268 L230.42857142857142 268 Q220.42857142857142 272 210.42857142857142 268 L189.57142857142856 268 Q179.57142857142856 292 169.57142857142856 268 L148.71428571428572 268 Q138.71428571428572 272 128.71428571428572 268 L107.85714285714286 268 Q97.85714285714286 292 87.85714285714286 268 L67 268 Q57 272 47 268 L57 268 Z" fill="#f39a1f"/>
+<path d="M51 254 Q69.625 246 88.25 254 Q106.875 262 125.5 254 Q144.125 246 162.75 254 Q181.375 262 200 254 Q218.625 246 237.25 254 Q255.875 262 274.5 254 Q293.125 246 311.75 254 Q330.375 262 349 254" fill="none" stroke="#a8322a" stroke-width="10" stroke-linecap="round"/><path d="M51 254 Q69.625 246 88.25 254 Q106.875 262 125.5 254 Q144.125 246 162.75 254 Q181.375 262 200 254 Q218.625 246 237.25 254 Q255.875 262 274.5 254 Q293.125 246 311.75 254 Q330.375 262 349 254" fill="none" stroke="#e98a7a" stroke-width="3" stroke-linecap="round"/>
+<path d="M51 242 Q69.625 234 88.25 242 Q106.875 250 125.5 242 Q144.125 234 162.75 242 Q181.375 250 200 242 Q218.625 234 237.25 242 Q255.875 250 274.5 242 Q293.125 234 311.75 242 Q330.375 250 349 242" fill="none" stroke="#a8322a" stroke-width="10" stroke-linecap="round"/><path d="M51 242 Q69.625 234 88.25 242 Q106.875 250 125.5 242 Q144.125 234 162.75 242 Q181.375 250 200 242 Q218.625 234 237.25 242 Q255.875 250 274.5 242 Q293.125 234 311.75 242 Q330.375 250 349 242" fill="none" stroke="#e98a7a" stroke-width="3" stroke-linecap="round"/>
+<rect x="65" y="229" width="270" height="8" rx="4" fill="#7a2a14"/>
+        <path d="M140 236 q6 16 12 0 M230 236 q6 22 12 0 M290 236 q5 12 10 0" fill="#7a2a14"/>
+<path d="M61 230 C61 140 119 130 200 130 C281 130 339 140 339 230 Z" fill="#d98b3a"/>
+    <path d="M61 230 L339 230 L337 220 L63 220 Z" fill="#b86a24"/>
+    <ellipse cx="152.75" cy="160" rx="47.25" ry="13" fill="url(#brilho)"/>
+<ellipse cx="130" cy="175" rx="6" ry="3.2" transform="rotate(-20 130 175)" fill="#fbe9c8"/><ellipse cx="170" cy="155" rx="6" ry="3.2" transform="rotate(25 170 155)" fill="#fbe9c8"/><ellipse cx="215" cy="170" rx="6" ry="3.2" transform="rotate(-20 215 170)" fill="#fbe9c8"/><ellipse cx="255" cy="152" rx="6" ry="3.2" transform="rotate(25 255 152)" fill="#fbe9c8"/><ellipse cx="285" cy="180" rx="6" ry="3.2" transform="rotate(-20 285 180)" fill="#fbe9c8"/><ellipse cx="100" cy="198" rx="6" ry="3.2" transform="rotate(25 100 198)" fill="#fbe9c8"/><ellipse cx="190" cy="190" rx="6" ry="3.2" transform="rotate(-20 190 190)" fill="#fbe9c8"/><ellipse cx="240" cy="195" rx="6" ry="3.2" transform="rotate(25 240 195)" fill="#fbe9c8"/><ellipse cx="310" cy="205" rx="6" ry="3.2" transform="rotate(-20 310 205)" fill="#fbe9c8"/>
+</svg>

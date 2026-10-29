@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger — Sabor em cada mordida</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== CAPA DA LOJA ===== -->
+  <header class="capa">
+    <img src="img/capa.svg" alt="" class="capa__imagem">
+  </header>
+
+  <!-- ===== INFORMAÇÕES DA LOJA ===== -->
+  <section class="loja">
+    <div class="loja__logo">
+      <img src="logo-burger.svg" alt="Burger - Sabor em cada mordida">
+    </div>
+
+    <div class="loja__dados">
+      <h1 class="loja__nome">Burger</h1>
+      <p class="loja__slogan">Hambúrgueres artesanais direto da brasa</p>
+
+      <ul class="loja__infos">
+        <li class="status-aberto">● Aberto agora</li>
+        <li>🕒 30–45 min</li>
+        <li>🛵 Delivery e retirada</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== BARRA FIXA: BUSCA + ABAS ===== -->
+  <div class="barra-fixa">
+    <div class="busca">
+      <span class="busca__icone">🔍</span>
+      <input type="search" id="busca" placeholder="Buscar no cardápio... (ex: bacon, frango, batata)">
+    </div>
+
+    <!-- Abas geradas pelo JavaScript -->
+    <nav class="abas" id="abas" aria-label="Categorias do cardápio"></nav>
+  </div>
+
+  <!-- ===== CARDÁPIO (seções geradas pelo JavaScript) ===== -->
+  <main class="cardapio" id="cardapio"></main>
+
+  <!-- ===== MODAL DO PRODUTO ===== -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal__caixa" role="dialog" aria-modal="true" aria-labelledby="modalNome">
+      <button class="modal__fechar" id="fecharModal" aria-label="Fechar">✕</button>
+      <img class="modal__foto" id="modalFoto" src="" alt="">
+      <div class="modal__corpo">
+        <h2 class="modal__nome" id="modalNome"></h2>
+        <div class="modal__descricao" id="modalDescricao"></div>
+        <div class="precos" id="modalPrecos"></div>
+      </div>
+      <div class="modal__rodape">
+        <div class="quantidade">
+          <button class="qtd-btn" id="modalMenos" aria-label="Diminuir">−</button>
+          <span id="modalQtd">1</span>
+          <button class="qtd-btn" id="modalMais" aria-label="Aumentar">+</button>
+        </div>
+        <button class="btn-adicionar" id="modalAdicionar">Adicionar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== BARRA "VER SACOLA" (aparece quando tem item) ===== -->
+  <button class="barra-sacola" id="abrirCarrinho" hidden>
+    <span class="contador" id="contador">0</span>
+    <span>Ver sacola</span>
+    <strong id="totalBarra">R$ 0,00</strong>
+  </button>
+
+  <!-- ===== CARRINHO (painel lateral) ===== -->
+  <div class="fundo" id="fundo"></div>
+  <aside class="carrinho" id="carrinho" aria-label="Carrinho de compras">
+    <div class="carrinho__topo">
+      <h2>Sua sacola</h2>
+      <button class="carrinho__fechar" id="fecharCarrinho" aria-label="Fechar carrinho">✕</button>
+    </div>
+
+    <ul class="carrinho__lista" id="listaCarrinho"></ul>
+
+    <div class="carrinho__rodape">
+      <div class="carrinho__total">
+        <span>Total</span>
+        <strong id="totalCarrinho">R$ 0,00</strong>
+      </div>
+      <button class="btn-finalizar" id="finalizar">Finalizar pedido</button>
+      <p class="carrinho__mensagem" id="mensagemPedido"></p>
+    </div>
+  </aside>
+
+  <!-- Aviso rápido quando adiciona um item -->
+  <div class="toast" id="toast"></div>
+
+  <footer class="rodape">
+    <img src="logo-burger.svg" alt="Burger">
+    <p>© 2026 Burger — Sabor em cada mordida</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
