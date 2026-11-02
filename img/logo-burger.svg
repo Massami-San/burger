@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="185 100 430 400" role="img" aria-labelledby="title desc">
+  <title id="title">Burger</title>
+  <desc id="desc">Logomarca minimalista branca de um hambúrguer, com o nome Burger e o slogan Sabor em cada mordida.</desc>
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Topo do pão -->
+    <path d="M270 205 C278 151 329 118 400 118 C471 118 522 151 530 205 Q531 220 514 220 H286 Q269 220 270 205 Z" stroke-width="13"/>
+    <!-- Sementes -->
+    <g fill="#FFFFFF" stroke="none">
+      <ellipse cx="354" cy="165" rx="8" ry="5" transform="rotate(-25 354 165)"/>
+      <ellipse cx="400" cy="151" rx="8" ry="5" transform="rotate(20 400 151)"/>
+      <ellipse cx="445" cy="165" rx="8" ry="5" transform="rotate(25 445 165)"/>
+      <ellipse cx="400" cy="184" rx="8" ry="5" transform="rotate(-15 400 184)"/>
+    </g>
+    <!-- Queijo / camada central -->
+    <path d="M270 240 H530" stroke-width="13"/>
+    <path d="M272 269 C294 269 300 252 322 252 C344 252 350 269 372 269 C394 269 400 252 422 252 C444 252 450 269 472 269 C494 269 500 252 528 252" stroke-width="12"/>
+    <!-- Base do pão -->
+    <path d="M278 294 H522 C520 324 499 344 469 344 H331 C301 344 280 324 278 294 Z" stroke-width="13"/>
+  </g>
+  <text x="400" y="430" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="15" text-anchor="middle">BURGER</text>
+  <text x="400" y="477" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" letter-spacing="7" text-anchor="middle">SABOR EM CADA MORDIDA</text>
+</svg>

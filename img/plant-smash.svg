@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#f2a93b" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f2a93b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brilho" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#211a15"/>
+  <rect width="400" height="400" fill="url(#glow)"/>
+  <ellipse cx="200" cy="338" rx="150" ry="18" fill="#000" opacity="0.35"/>
+  <rect x="65" y="294" width="270" height="36" rx="16" fill="#b86a24"/>
+    <rect x="65" y="294" width="270" height="14" rx="7" fill="#d98b3a"/>
+<rect x="61" y="266" width="278" height="32" rx="15" fill="#8a6a2c"/>
+        <circle cx="97.4" cy="282" r="5" fill="#c4a050"/><circle cx="146" cy="288" r="5" fill="#c4a050"/><circle cx="200" cy="282" r="5" fill="#c4a050"/><circle cx="254" cy="288" r="5" fill="#c4a050"/><circle cx="297.2" cy="282" r="5" fill="#c4a050"/>
+        <circle cx="124.4" cy="286" r="3" fill="#5fae5a"/><circle cx="232.4" cy="286" r="3" fill="#5fae5a"/>
+<path d="M57 260 L343 260 L343 270 L353 270 Q343 294 333 270 L312.1428571428571 270 Q302.1428571428571 274 292.1428571428571 270 L271.2857142857143 270 Q261.2857142857143 294 251.28571428571428 270 L230.42857142857142 270 Q220.42857142857142 274 210.42857142857142 270 L189.57142857142856 270 Q179.57142857142856 294 169.57142857142856 270 L148.71428571428572 270 Q138.71428571428572 274 128.71428571428572 270 L107.85714285714286 270 Q97.85714285714286 294 87.85714285714286 270 L67 270 Q57 274 47 270 L57 270 Z" fill="#f39a1f"/>
+<rect x="61" y="230" width="278" height="32" rx="15" fill="#8a6a2c"/>
+        <circle cx="97.4" cy="246" r="5" fill="#c4a050"/><circle cx="146" cy="252" r="5" fill="#c4a050"/><circle cx="200" cy="246" r="5" fill="#c4a050"/><circle cx="254" cy="252" r="5" fill="#c4a050"/><circle cx="297.2" cy="246" r="5" fill="#c4a050"/>
+        <circle cx="124.4" cy="250" r="3" fill="#5fae5a"/><circle cx="232.4" cy="250" r="3" fill="#5fae5a"/>
+<path d="M57 224 L343 224 L343 234 L353 234 Q343 258 333 234 L312.1428571428571 234 Q302.1428571428571 238 292.1428571428571 234 L271.2857142857143 234 Q261.2857142857143 258 251.28571428571428 234 L230.42857142857142 234 Q220.42857142857142 238 210.42857142857142 234 L189.57142857142856 234 Q179.57142857142856 258 169.57142857142856 234 L148.71428571428572 234 Q138.71428571428572 238 128.71428571428572 234 L107.85714285714286 234 Q97.85714285714286 258 87.85714285714286 234 L67 234 Q57 238 47 234 L57 234 Z" fill="#f39a1f"/>
+<ellipse cx="130" cy="222" rx="22" ry="6" fill="#7aa83c" stroke="#5a8028" stroke-width="2"/><ellipse cx="200" cy="222" rx="22" ry="6" fill="#7aa83c" stroke="#5a8028" stroke-width="2"/><ellipse cx="270" cy="222" rx="22" ry="6" fill="#7aa83c" stroke="#5a8028" stroke-width="2"/>
+<path d="M61 220 C61 130 119 120 200 120 C281 120 339 130 339 220 Z" fill="#d98b3a"/>
+    <path d="M61 220 L339 220 L337 210 L63 210 Z" fill="#b86a24"/>
+    <ellipse cx="152.75" cy="150" rx="47.25" ry="13" fill="url(#brilho)"/>
+<ellipse cx="130" cy="165" rx="6" ry="3.2" transform="rotate(-20 130 165)" fill="#fbe9c8"/><ellipse cx="170" cy="145" rx="6" ry="3.2" transform="rotate(25 170 145)" fill="#fbe9c8"/><ellipse cx="215" cy="160" rx="6" ry="3.2" transform="rotate(-20 215 160)" fill="#fbe9c8"/><ellipse cx="255" cy="142" rx="6" ry="3.2" transform="rotate(25 255 142)" fill="#fbe9c8"/><ellipse cx="285" cy="170" rx="6" ry="3.2" transform="rotate(-20 285 170)" fill="#fbe9c8"/><ellipse cx="100" cy="188" rx="6" ry="3.2" transform="rotate(25 100 188)" fill="#fbe9c8"/><ellipse cx="190" cy="180" rx="6" ry="3.2" transform="rotate(-20 190 180)" fill="#fbe9c8"/><ellipse cx="240" cy="185" rx="6" ry="3.2" transform="rotate(25 240 185)" fill="#fbe9c8"/><ellipse cx="310" cy="195" rx="6" ry="3.2" transform="rotate(-20 310 195)" fill="#fbe9c8"/>
+<path d="M210 124 q30 -60 80 -50 q-10 50 -80 50 z" fill="#5fae5a"/>
+      <path d="M214 120 q30 -30 70 -44" stroke="#3d7a39" stroke-width="3" fill="none"/>
+</svg>

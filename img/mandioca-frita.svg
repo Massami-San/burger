@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#f2a93b" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f2a93b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brilho" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#211a15"/>
+  <rect width="400" height="400" fill="url(#glow)"/>
+  <ellipse cx="200" cy="338" rx="150" ry="18" fill="#000" opacity="0.35"/>
+  <ellipse cx="200" cy="300" rx="165" ry="48" fill="#3a2e25"/>
+    <ellipse cx="200" cy="292" rx="148" ry="38" fill="#2d241d"/>
+    <rect x="94" y="240" width="32" height="110" rx="10" fill="#f3dfa6" stroke="#d6a94e" stroke-width="3" transform="rotate(98 110 280)"/><rect x="129" y="240" width="32" height="100" rx="10" fill="#f3dfa6" stroke="#d6a94e" stroke-width="3" transform="rotate(78 145 280)"/><rect x="164" y="240" width="32" height="90" rx="10" fill="#f3dfa6" stroke="#d6a94e" stroke-width="3" transform="rotate(104 180 280)"/><rect x="199" y="240" width="32" height="110" rx="10" fill="#f3dfa6" stroke="#d6a94e" stroke-width="3" transform="rotate(82 215 280)"/><rect x="234" y="240" width="32" height="100" rx="10" fill="#f3dfa6" stroke="#d6a94e" stroke-width="3" transform="rotate(100 250 280)"/><rect x="269" y="240" width="32" height="90" rx="10" fill="#f3dfa6" stroke="#d6a94e" stroke-width="3" transform="rotate(76 285 280)"/><rect x="114" y="210" width="32" height="110" rx="10" fill="#f3dfa6" stroke="#d6a94e" stroke-width="3" transform="rotate(60 130 250)"/><rect x="214" y="210" width="32" height="100" rx="10" fill="#f3dfa6" stroke="#d6a94e" stroke-width="3" transform="rotate(56 230 250)"/><rect x="174" y="210" width="32" height="90" rx="10" fill="#f3dfa6" stroke="#d6a94e" stroke-width="3" transform="rotate(40 190 250)"/><rect x="254" y="210" width="32" height="110" rx="10" fill="#f3dfa6" stroke="#d6a94e" stroke-width="3" transform="rotate(48 270 250)"/><rect x="150" y="245" width="6" height="6" fill="#fff" transform="rotate(30 150 245)"/><rect x="230" y="236" width="6" height="6" fill="#fff" transform="rotate(30 230 236)"/><rect x="260" y="270" width="6" height="6" fill="#fff" transform="rotate(30 260 270)"/><rect x="180" y="280" width="6" height="6" fill="#fff" transform="rotate(30 180 280)"/>
+</svg>

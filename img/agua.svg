@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#8cc4ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8cc4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="brilho" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#211a15"/>
+  <rect width="400" height="400" fill="url(#glow)"/>
+  <ellipse cx="200" cy="338" rx="150" ry="18" fill="#000" opacity="0.35"/>
+  
+    <rect x="182" y="70" width="36" height="26" rx="5" fill="#3d7fd0"/>
+    <path d="M178 96 L222 96 Q258 120 258 160 L258 312 Q258 330 240 330 L160 330 Q142 330 142 312 L142 160 Q142 120 178 96 Z" fill="#cfe8ff" opacity="0.35"/>
+    <path d="M146 170 L254 170 L254 312 Q254 326 240 326 L160 326 Q146 326 146 312 Z" fill="#8cc4ff" opacity="0.45"/>
+    <rect x="142" y="200" width="116" height="60" fill="#3d7fd0"/>
+    <path d="M200 214 q-14 18 0 30 q14 -12 0 -30 z" fill="#fff"/>
+    <path d="M178 96 L222 96 Q258 120 258 160 L258 312 Q258 330 240 330 L160 330 Q142 330 142 312 L142 160 Q142 120 178 96 Z" fill="none" stroke="#e6f2ff" stroke-width="4" opacity="0.7"/>
+    <rect x="158" y="140" width="9" height="160" rx="4.5" fill="#fff" opacity="0.35"/>
+</svg>
