@@ -2,8 +2,8 @@ module.exports = {
 	dialect: "postgres",
 	host: "localhost",
 	port: 5432,
-	username: "massami",
-	password: "20878704",
+	username: process.env.DB_USER,
+	password: process.env.DB_PASSWORD,
 	database: "burguer-massami-db",
 	define: {
 		timestamps: true,
