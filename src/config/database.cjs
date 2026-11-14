@@ -1,3 +1,9 @@
+const { existsSync } = require("node:fs");
+const { resolve } = require("node:path");
+
+const envFile = resolve(__dirname, "..", "..", ".env");
+if (existsSync(envFile)) process.loadEnvFile(envFile);
+
 module.exports = {
 	dialect: "postgres",
 	host: "localhost",
